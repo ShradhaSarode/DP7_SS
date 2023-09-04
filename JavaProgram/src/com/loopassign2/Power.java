@@ -1,5 +1,5 @@
 //14.WAP to accept base and index from user and calculates power
-package com.assign2;
+package com.loopassign2;
 
 import java.util.Scanner;
 

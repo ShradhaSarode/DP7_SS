@@ -1,5 +1,5 @@
 //2.	 WAP to print odd numbers from 521 to 229 using while loop. 
-package com.assign2;
+package com.loopassign2;
 
 //import java.util.Scanner;
 

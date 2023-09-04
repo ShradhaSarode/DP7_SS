@@ -1,5 +1,5 @@
 //WAP to print table of given no
-package com.assign2;
+package com.loopassign2;
 
 import java.util.Scanner;
 

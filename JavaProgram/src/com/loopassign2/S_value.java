@@ -1,5 +1,5 @@
 //15.	s=1!+2!+3!.........+n! find s
-package com.assign2;
+package com.loopassign2;
 
 import java.util.Scanner;
 

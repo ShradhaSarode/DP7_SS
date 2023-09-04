@@ -1,5 +1,5 @@
 //WAP to print even numbers from 121 to 229 using for loop. 
-package com.assign2;
+package com.loopassign2;
 
 import java.util.Scanner;
 

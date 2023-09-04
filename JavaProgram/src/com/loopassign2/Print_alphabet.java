@@ -1,5 +1,5 @@
 //5.Write a Java program to print all alphabets from a to z. - using  for loop
-package com.assign2;
+package com.loopassign2;
 
 public class Print_alphabet
 {

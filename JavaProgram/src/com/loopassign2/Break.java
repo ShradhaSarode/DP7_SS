@@ -1,5 +1,5 @@
 //WAP to show the use of break statement ( in for loop)
-package com.assign2;
+package com.loopassign2;
 
 public class Break {
 

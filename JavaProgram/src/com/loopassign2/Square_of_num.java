@@ -1,5 +1,5 @@
 //WAP to print squares from 1 to20
-package com.assign2;
+package com.loopassign2;
 
 //import java.util.Scanner;
 

@@ -1,5 +1,5 @@
 //Write a Java program to calculate product of digits of any number.
-package com.assign2;
+package com.loopassign2;
 
 import java.util.Scanner;
 

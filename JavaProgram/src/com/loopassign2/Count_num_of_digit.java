@@ -1,5 +1,5 @@
 //8.Write a Java program to count number of digits in any number
-package com.assign2;
+package com.loopassign2;
 
 import java.util.Scanner;
 
