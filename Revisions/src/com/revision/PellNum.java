@@ -1,7 +1,7 @@
+package com.revision;
 
-package com.lab;
-
-public class Pell_num {
+public class PellNum
+{
 	public static void main(String[] args) {
         int n = 10; 
         generatePellNumbers(n);
@@ -19,4 +19,5 @@ public class Pell_num {
             b = next;
         }
     }
+
 }

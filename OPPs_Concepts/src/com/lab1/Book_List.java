@@ -84,10 +84,11 @@ public class Book_List {
 	public static void main(String[] args)
 	{
 		Book b1=new Book(1,"C","balguru","12/11/1996",400f ,'S');
-		Book b2=new Book(2,"C++","SDS","12/11/1996",500f,'o');
-		Book b3=new Book(3,"HTML","DGS","12/11/1996",450f,'S');
-		Book b4=new Book(4,"CSS","RDS","12/11/1996",600f,'o');
-		Book b5=new Book(5,"JavaScript","ADS","12/11/1996",800f,'S');
+		Book b2=new Book(2,"C++","SDS","11/10/1997",500f,'o');
+		Book b3=new Book(3,"HTML","DGS","13/09/1998",450f,'S');
+		Book b4=new Book(4,"CSS","RDS","14/08/1999",600f,'o');
+		Book b5=new Book(5,"JavaScript","ADS","15/07/1995",800f,'S');
+		
 		System.out.println(b1);
 		System.out.println(b2);
 		System.out.println(b3);

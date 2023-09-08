@@ -90,7 +90,7 @@ public class Item1 {
 		i7.setIname("T-shirt");
 		i7.setIprice(2500f);
 		i7.setIbrand("HRX");
-		System.out.println(7);
+		System.out.println(i7);
 		giveDiscount(i2);
 		giveDiscount(i3);
 		giveDiscount(i4);
