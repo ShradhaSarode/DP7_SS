@@ -17,7 +17,7 @@ public class Methodcall2 {
 	ans=factNum(7);
 	System.out.println("factorial of 7 is:"+ans);
 	factNum(9);
-	System.out.println("factorial of 9 is:"+ans);
+	System.out.println("factorial of 9 is:"+factNum(9));
 	System.out.println("factorial of 5 is:"+factNum(5));
 	}
 
