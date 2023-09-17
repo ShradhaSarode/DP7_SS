@@ -10,7 +10,7 @@ public class StaticVariable {
 	}
 	static void staticMethod()
 	{
-		//System.out.println(x);
+		  //System.out.println(x);
           System.out.println(y);	
 	}
 

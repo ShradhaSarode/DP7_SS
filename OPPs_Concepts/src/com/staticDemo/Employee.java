@@ -10,11 +10,12 @@ public class Employee
 	static
 	{
 		cName="T-System";
-		//count=0;
+		count=0;
+	}
 		{
 			count++;
 		}
-	}
+	
 	
 	public int getId() {
 		return id;
