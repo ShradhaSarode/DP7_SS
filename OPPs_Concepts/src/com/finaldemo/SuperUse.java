@@ -1,4 +1,4 @@
-package com.staticAssignment;
+package com.finaldemo;
 class Vehicle
 {
     String vehicleType;

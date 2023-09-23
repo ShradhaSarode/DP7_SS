@@ -1,10 +1,10 @@
 /* WAP to use containment for following hierarchy. Fill all data and print all
-data: (id is a integer number, name is a String)
-Class Institute:-,id,name,
-Branch:id,name,
-Subject:id,name,
-Topic:id,name,
-SubTopic:id,name,
+ data: (id is a integer number, name is a String)
+Class Institute:-,id,name,Branch b;
+Branch:id,name,Subject s;
+Subject:id,name,Topic t;
+Topic:id,name,Subtopic sub;
+SubTopic:id,name,Question q;
 Question:id,name
  */
 package com.containmentAssignment;
@@ -40,9 +40,6 @@ public class Institute
 	public String toString()
 	{
 		return "Institute id:" + iId +"\n"
-				+ "name=" + iName +"\n";
+				+ "name:" + iName +"\n";
 	}
-	
-	
-	
 }

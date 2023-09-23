@@ -4,41 +4,52 @@ public class Topic
 {
 	private int tId;
 	private String tName;
-	private Subject topic;
-	public int gettId() {
+	private Subject s;
+	
+	public int gettId()
+	{
 		return tId;
 	}
-	public void settId(int tId) {
+	public void settId(int tId)
+	{
 		this.tId = tId;
 	}
-	public String gettName() {
+	public String gettName()
+	{
 		return tName;
 	}
-	public void settName(String tName) {
+	public void settName(String tName)
+	{
 		this.tName = tName;
 	}
-	public Subject getTopic() {
-		return topic;
+	public Subject getS()
+	{
+		return s;
 	}
-	public void setTopic(Subject topic) {
-		this.topic = topic;
+	public void setS(Subject s)
+	{
+		this.s = s;
+	}
+	public void setTopic(Subject s)
+	{
+		this.s = s;
 	}
 	 Topic()
 	 {
 		 
 	 }
-	 Topic(int tId, String tName, Subject topic) {
+	 Topic(int tId, String tName, Subject s) {
 		super();
 		this.tId = tId;
 		this.tName = tName;
-		this.topic = topic;
+		this.s = s;
 	}
 	
 	public String toString()
 	{
 		return "Topic tId:" + tId +"\n"
 				+ "tName:" + tName+"\n"
-				+ "topic=" + topic +"\n";
+				+ "Subject:" + s +"\n";
 	}
 	
 	

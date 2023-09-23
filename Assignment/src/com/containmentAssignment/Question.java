@@ -28,13 +28,17 @@ public class Question
 	{
 		this.qName = qName;
 	}
+	
 	public Question(int qId, String qName, SubTopic st) {
 		super();
 		this.qId = qId;
 		this.qName = qName;
 		this.st = st;
 	}
-	
+	public Question()
+	{
+		
+	}
 	public String toString()
 	{
 		return "Question Id=" + qId+"\n"
