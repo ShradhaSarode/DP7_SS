@@ -18,7 +18,8 @@ final class Developer
 		this.salary = 500000f;
 		
 	}
-	public Developer(String cName, float salary, String ename) {
+	public Developer(String cName, float salary, String ename)
+	{
 		super();
 		this.cName = cName;
 		this.salary = salary;

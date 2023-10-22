@@ -1,4 +1,5 @@
 package com.inheritanceAssignment;
+//1)Write 3 programs for single inheritance.
 class A
 {
     int a;

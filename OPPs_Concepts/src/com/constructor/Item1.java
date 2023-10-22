@@ -11,8 +11,6 @@ class Itemcloths
 	private float iprice;
 	private String ibrand;
 	
-	
-	
 	public int getIid() {
 		return iid;
 	}
@@ -54,9 +52,7 @@ class Itemcloths
 				"name:" + iname +"\n"+
 				"price:" + iprice +"\n"+
 				"brand:" + ibrand+"\n";
-	}
-
- 
+	} 
 }
 public class Item1 {
 	 static void giveDiscount(Itemcloths i)
@@ -108,11 +104,5 @@ public class Item1 {
 		System.out.println(i6);
 		System.out.println(i7);
 		
-	
-
 	}
-
-
-
-	
 }

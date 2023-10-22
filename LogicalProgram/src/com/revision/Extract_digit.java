@@ -64,7 +64,7 @@ public class Extract_digit {
 	
 	public static void main(String[] args) {
 		
-		int num=0;
+		int num=5647;
 		
 	    System.out.println("Digits are:");
 	    extract(num);
@@ -75,7 +75,7 @@ public class Extract_digit {
 		 System.out.println("Sum of digits are:");
 		sumDigits(num);
 		
-		 System.out.println("Number of digits are:");
+		 System.out.println("Count Number of digits are:");
 		countDigits(num);
 	}
 

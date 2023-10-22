@@ -18,6 +18,14 @@ class Employee  extends Programmer
 		System.out.println("Employee works 9 hours a day.");
 	}
 }
+class Emp extends Programmer
+{
+	void workingHours()
+	{
+		super.workingHours();
+		System.out.println("Emp works 7 hours a day.");
+	}
+}
 public class WorkingHour
 {
 	public static void main(String[] args)
@@ -29,6 +37,14 @@ public class WorkingHour
 		System.out.println("Programmer's Working Hours and Employee's Working Hours:");
 		System.out.println("----------------------------------------------------------");
 		e1.workingHours();
+		System.out.println("------------Dynamic Method Dispatch/Upcasting------------------------");
+		Programmer p2;
+		p2= new Employee();
+		p2.workingHours();
+		System.out.println("----------------------------------------------------------");
+		p2=new Emp();
+		p2.workingHours();
+		
 	}
 
 }

@@ -1,4 +1,3 @@
-
 package com.lab;
 
 public class Pell_num {
@@ -6,8 +5,8 @@ public class Pell_num {
         int n = 10; 
         generatePellNumbers(n);
     }
-
-    static void generatePellNumbers(int n) {
+    static void generatePellNumbers(int n)
+    {
         int a = 0, b = 1;
         System.out.println("Pell Numbers:");
 

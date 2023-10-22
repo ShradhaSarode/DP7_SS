@@ -62,7 +62,7 @@ public class Increasing_decreasing_bouncy_static_method
 		a=inc(num);
 		
 		b=decreasing(num);
-		int flag = 0;
+		//int flag = 0;
 		if(a==0)
 		{
 			System.out.println("increasing");

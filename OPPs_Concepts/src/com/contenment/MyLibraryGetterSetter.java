@@ -2,7 +2,6 @@ package com.contenment;
 
 public class MyLibraryGetterSetter
 {
-
 	public static void main(String[] args)
 	{
 		Author a1=new Author();

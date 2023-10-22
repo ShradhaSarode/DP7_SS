@@ -1,19 +1,21 @@
 package com.opps;
 
-public class Car {
+public class Car
+{
 	int carId;
 	String name;
 	float price;
 	String brand;
 
-	void display() {
+	void display()
+	{
 		System.out.println("CarId is:" + carId+"\n"+
 				"name:" + name +"\n"+
 				"price:" + price +"\n"+
 				"brand:" + brand+"\n");
 	}
-
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		Car c1 = new Car();
 		c1.carId = 101;
 		c1.name = "roma";
@@ -29,5 +31,4 @@ public class Car {
 		c2.display();
 
 	}
-
 }

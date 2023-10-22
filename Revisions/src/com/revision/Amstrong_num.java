@@ -25,7 +25,7 @@ public class Amstrong_num
 	{
 	    int original=num;
 	    double sum=0;
-	    
+	   
 	    do
 	    {
 	    	int r=num%10;
@@ -54,7 +54,6 @@ public class Amstrong_num
 		int num= sc.nextInt();
 		
 		int n= countdigits(num);
-		
 		checkArmstrong(num, n);
 		sc.close();
 		

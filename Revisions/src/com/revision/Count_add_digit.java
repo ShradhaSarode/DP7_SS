@@ -13,9 +13,7 @@ public class Count_add_digit
 			num=num/10;
 			sum+=num;
 		}
-	}
-	
-
+}
 	public static void main(String[] args)
 	{
 		//int count=0;
@@ -27,7 +25,5 @@ public class Count_add_digit
 		
 		//count++;
 		sc.close();
-
 	}
-
 }

@@ -2,7 +2,8 @@ package com.contenment;
 
 public class MyLibrary {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		Author a1=new Author(101,"SS");
 		Author a2=new Author(102,"RR");
 		

@@ -1,12 +1,12 @@
 package com.lab1;
 /*
  
-*     *
-*     *
-*******
-*     *
-*     *
-*     *
+*            *
+*            *
+********
+*            *
+*            *
+*            *
 
  */
 public class Pattern_H {

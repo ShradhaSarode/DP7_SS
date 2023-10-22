@@ -12,8 +12,6 @@ public class Krishnamurthy_num {
 	        }
 	        return n * factorial(n - 1);
 	    }
-	    
-	    
 	    static boolean isKrishnamurthy(int num) {
 	        int originalNum = num;
 	        int sumOfFactorials = 0;

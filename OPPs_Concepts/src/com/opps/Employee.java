@@ -16,11 +16,13 @@ public class Employee {
 		System.out.println(name);
 	}
 
-	void display() {
+	void display()
+	{
 		System.out.println("Employee id is:" + e_id + "\n" + "name:" + name + "\n" + "salary :" + salary + "%" + "\n");
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		Scanner ed = new Scanner(System.in);
 		Employee s1 = new Employee();
 		

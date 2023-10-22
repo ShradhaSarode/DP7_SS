@@ -40,9 +40,10 @@ public String toString()
 	return id+" "+age+" "+name;
 }
 }
-public class Parametrised_const {
-
-	public static void main(String[] args) {
+public class Parametrised_const
+{
+	public static void main(String[] args)
+	{
 		Student s1=new Student(101,25,"ritu");
 		Student s2=new Student(102,24,"nitu");
 		Student s3=new Student(103,27,"sita");

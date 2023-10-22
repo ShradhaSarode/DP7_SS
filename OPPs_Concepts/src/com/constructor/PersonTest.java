@@ -1,7 +1,7 @@
 package com.constructor;
 
-class Person {
-
+class Person
+{
 	private int id;
 	private String name;
 	private int age;
@@ -12,21 +12,16 @@ class Person {
 		name = "Unknown";
 		age = 18;
 	}
-
 	public String toString()
 	{
 		return id + " " + name + " " + age;
 	}
 }
-
 public class PersonTest
 {
-
 	public static void main(String[] args)
 	{
 		Person p= new Person();
 		System.out.println(p);
-
 	}
-
 }

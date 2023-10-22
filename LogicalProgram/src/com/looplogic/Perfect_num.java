@@ -5,21 +5,22 @@ import java.util.Scanner;
 public class Perfect_num {
 	static void check_perfect(int num)
 	{
-		int sum=0;
-		for(int i = 1;i<=num;i++)
+		int sum=0;		
+		for(int i=1;i<num;i++)
 		{
-			if(num%i==0)
+			if(num%i==0) // factor
 			{
-				sum +=i;
+				sum+=i;
 			}
 		}
+		
 		if(sum==num)
 		{
-			System.out.println(num+":is perfect number");
+			System.out.println(num +": is a Perfect Number");
 		}
 		else
 		{
-			System.out.println(num+":is not a perfect number");	
+			System.out.println(num +": is not a Perfect Number");
 		}
 	}
 

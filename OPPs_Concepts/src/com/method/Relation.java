@@ -1,7 +1,5 @@
 /*
  generate your own function to satisfy the relationship between the inputs and outputs.
-
-
 Your task is to create a function that, when fed the inputs below, produce the sample outputs shown.
 Examples
 832 ➞ 594

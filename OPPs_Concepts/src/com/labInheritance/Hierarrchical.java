@@ -42,7 +42,7 @@ class GoldFish  extends Fish
 	@Override
 	public String toString()
 	{
-		return "GoldFish Name=" + gName+"\n"
+		return super.toString()+"GoldFish Name=" + gName+"\n"
 				+ "Type=" + Type+"\n"
 				+ "temp=" + temp +"\n";
 	}
@@ -64,7 +64,7 @@ class Whale extends Fish
 	}
 	@Override
 	public String toString() {
-		return "Whale size=" + size+"\n"
+		return  super.toString()+"Whale size=" + size+"\n"
 				+ "wName=" + wName +"\n";
 	}
 	
@@ -85,6 +85,7 @@ public class Hierarrchical
 		System.out.println(g2);
 		System.out.println(g3);
 		System.out.println(w1);
+		System.out.println(w2);
 
 	}
 

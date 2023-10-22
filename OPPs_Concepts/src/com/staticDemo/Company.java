@@ -20,7 +20,7 @@ public class Company
 		System.out.println(e2);
 		System.out.println(e3);
 		System.out.println("After num of  emp :"+Employee.count);
-		
+		System.out.println("-----------------------------------------------");
 		Employee.cName="TCS";
 		System.out.println("Company Name:"+Employee.cName);
 		System.out.println(e1);

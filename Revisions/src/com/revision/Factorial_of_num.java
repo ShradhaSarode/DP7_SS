@@ -1,9 +1,7 @@
 package com.revision;
-
 import java.util.Scanner;
-
-public class Factorial_of_num {
-
+public class Factorial_of_num
+{
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);

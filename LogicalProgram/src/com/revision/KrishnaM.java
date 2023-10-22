@@ -33,8 +33,9 @@ public class KrishnaM {
 		Scanner km=new Scanner(System.in);
 		System.out.println("Enter any number:");
 		int n=km.nextInt();
-		check_KM(n);
 		km.close();
+		check_KM(n);
+		
 	}
 
 }
