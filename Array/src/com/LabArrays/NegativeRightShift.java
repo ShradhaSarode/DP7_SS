@@ -15,7 +15,7 @@ public class NegativeRightShift
 			{
 				arr2[count]=ar[i];
 				count ++;
-				System.out.println(ar[i]);
+			//	System.out.println(ar[i]);
 			}
 		}
 		for(int i=0;i<ar.length;i++)
@@ -24,7 +24,7 @@ public class NegativeRightShift
 			{
 				arr2[count]=ar[i];
 				count ++;
-				System.out.println(ar[i]);
+			//	System.out.println(ar[i]);
 			}
 		}
 		return arr2;	

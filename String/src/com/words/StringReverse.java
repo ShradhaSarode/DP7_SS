@@ -9,13 +9,17 @@ public class StringReverse
 		{
 			rev=rev+s.charAt(i);
 		}
-		System.out.println("after"+rev);
+		System.out.println("after: "+rev);
 	}
 	public static void main(String[] args)
 	{
 		String st="i like to learn java";
-		System.out.println("before"+st);
+		System.out.println("before: "+st);
 		reverseSt(st);
+		/*
+		 before: i like to learn java
+         after:  avaj nrael ot ekil i
+		 */
 	}
 
 }

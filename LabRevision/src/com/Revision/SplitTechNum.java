@@ -6,7 +6,7 @@ import java.util.Scanner;
   of these halves is equal to the number itself. 
  Write a program to generate and print all four digits tech numbers.  e.g.) number : 3025->(30+25)2 =(55)2 =3025 
  */
-public class Split
+public class SplitTechNum
 {
 	static void countDigits(int num)
 	{

@@ -14,12 +14,12 @@ public class ReverseWordByWord
 		}
 		rev=rev+" ";
 	}
-	System.out.println("after:"+rev);
+	System.out.println("after: "+rev);
 	}
 	public static void main(String[] args)
 	{
-		String st="i like to learn java";
-		System.out.println("before"+st);
+		String st="I like to learn java";
+		System.out.println("before: "+st);
 		reverseWord(st);
 	}
 

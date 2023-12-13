@@ -1,7 +1,7 @@
 package com.Exception1;
 
-public class FirstExceptionHandled {
-
+public class FirstExceptionHandled
+{
 	public static void main(String[] args)
 	{
 		int x=10;

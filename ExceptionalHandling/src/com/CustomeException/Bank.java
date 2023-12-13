@@ -7,7 +7,7 @@ class Account
 	private int balance;
 	public Account() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Account(int id, String name, int balance) {
 		super();

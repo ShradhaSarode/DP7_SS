@@ -28,9 +28,5 @@ public class UncheckedExceptionPropagation
 		
 		UncheckedExceptionPropagation obj1= new UncheckedExceptionPropagation();
 		obj1.method3();
-		
 	}
-
-
-
 }

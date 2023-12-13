@@ -48,7 +48,7 @@ public class ReturnType
 	public static void main(String[] args)
 	{
 		System.out.println((method1(0)));
-        System.out.println(method1(2));
+        System.out.println(method2(2));
 		
 		System.out.println("---------------------------");
 		

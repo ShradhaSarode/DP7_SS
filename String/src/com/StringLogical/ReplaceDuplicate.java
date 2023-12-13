@@ -19,9 +19,8 @@ public class ReplaceDuplicate
 		}
 		return st;
 	}
-	
-	public static void main(String[] args) {
-       
+	public static void main(String[] args)
+	{   
 		Scanner sc= new Scanner(System.in);
 		
 		System.out.println("Enter a word1:");
@@ -33,9 +32,5 @@ public class ReplaceDuplicate
 		word=replaceDup(word);
 		
 		System.out.println("New word:"+word);
-		
-		
 	}
-
-
 }
